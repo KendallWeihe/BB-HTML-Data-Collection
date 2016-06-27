@@ -8,5 +8,9 @@ The programs take two teams as arguments -- the teams in upcoming games. Therefo
 
 Each stat is normalized between 0 and 1 based on the min and maximum stats in the league for each stat. This is for later use of the statistics (for example feeding it into a neural network). By normalizing, each stat holds equal weight. 
 
-There is also a script that does a mass collection of previous years NCAA basketball games. My current model collects stats from over 12,000 games. 
+There is a script that collects the same data as above, but converts the value to a per posession value.
+
+There is a script that does a mass collection of previous years NCAA basketball games. My current model collects stats from over 12,000 games. 
+
+
 
